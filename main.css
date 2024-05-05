@@ -1100,11 +1100,15 @@ footer p a {
 
 
 
-@media (min-width: 700px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
+
 
     .box-img img{
-        width: 415px;
+        width: 350px;
     }
+
+
+
 
 
 /* ----------- SKILLS ------------- */
@@ -1118,12 +1122,15 @@ footer p a {
     
     }
     
+
+
     .container1{
     
         margin: 0%;
         padding: 0%;
         padding-left: 30px;
         width: 90%;
+    
     }
     
     .container2{
@@ -1132,8 +1139,14 @@ footer p a {
         width: 90%;
         margin: 0;
         padding: 0%;
-    
     }
+
+    .radial-bars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 70px;
+    }
+
     
     /* ---------- contact ----------- */
     
@@ -1167,15 +1180,11 @@ footer p a {
     
     .contact .contact-text .left-side .contact-icons{
         text-align: center;
-        
     }
     
     .contact-form form{
         text-align: center;
-
     }
-    
-
 
 /* -----------FOOTER ------------ */
 
@@ -1191,70 +1200,10 @@ footer p a {
 }
 
 
-@media (min-width:481px) and (max-width:600px) {
-
-
-    /* -------- HEADER ------------- */
-.box-img{
-    display: none;
-}
-.header .a{
-    justify-content: space-evenly;
-    align-items: center;
-    display: inline-flex;
-    width: 100%;
-
-}
-.header .a i{
-    display: flex;
-}
-
-.header .a i ul.dropdown li a{
-text-decoration: none;
-color: #0ef;
-background-color: #000000;
-padding: 20px;
-display: block;
-border-radius: 8px;
-
-}
-
-.header .a i ul.dropdown li a:hover{
-    color: #ff004f;
-    background-color: #051129;
-}
-.header .a i ul.dropdown li{
-    display: block;
-    
-    margin: 2px 0;
-    list-style: none;
-}
-
-.header .a i .dropdown{
-    display: none;
-    background-color: transparent;
-    position: absolute;
-    right: 50px;
-    z-index: 9999;
-}
-
-.header .a i:hover ul.dropdown{
-    display: block;
-}
-
-.header .navbar{
-    display: none;
-}
-
-
-
+@media (min-width:769px) and (max-width:1024px) {
 
     /* -------- ABOUT ------------- */
-.about{
-    /* margin: auto; */
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
 
 .about-img{
     width: 80%;
@@ -1285,9 +1234,7 @@ border-radius: 8px;
 .services .contener{
 
     margin: 0;
-    padding: 0;
-
-    
+    padding: 0;   
 
 }
 
@@ -1325,52 +1272,41 @@ grid-template-columns: 1fr;
 
 }
 
-/* ---------- contact ----------- */
-
-.contact .contact-text{
-    /* background-color: #b60606; */
+.radial-bars{
     display: grid;
-    grid-template-columns: 1fr;
-    margin: 0%;
-    padding: 0%;
-}
-
-.contact .contact-text .left-side h2 {
-    font-size: 70px;
-}
-
-.contact .contact-text .left-side h4{
-    padding: 20px 0;
-    text-align: center;
-}
-
-.contact .contact-text .left-side p{
-    width: 95%;
-    padding-left: 30px;
-}
-
-.contact .contact-text .left-side .contact-list{
-    padding-left: 30px;
-    width: fit-content;
-}
-
-.contact .contact-text .left-side .contact-icons{
-    text-align: center;
-}
-
-.contact-form form{
-    text-align: center;
-}
-
-/* -----------FOOTER ------------ */
-
-footer p{
-    font-size: 25px;
-}
-
-footer p a {
-    letter-spacing: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 70px;
 }
 
 }
 
+@media (min-width:1025px) and (max-width:1200px) {
+
+
+    .container1{
+
+        margin: 0%;
+        padding: 0%;
+        padding-left: 30px;
+        width: 90%;
+    }
+    
+    .container2{
+    
+        width: 90%;
+        margin: 0;
+        padding: 0%;
+    
+    }
+    
+    
+    
+    .radial-bars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 70px;
+    }
+
+
+
+}
